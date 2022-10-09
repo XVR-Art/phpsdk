@@ -1,0 +1,9 @@
+{
+    "code": 10003,
+    "subcode": 45,
+    "msg": "账号已存在",
+    "result": {
+        "account_id": 1338662375435272265,
+        "email": "test@xvr.art"
+    }
+}

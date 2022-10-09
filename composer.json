@@ -1,0 +1,32 @@
+{
+  "name": "xvr-art/phpsdk",
+  "description": "https://xvr.art",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "support": {
+      "issues": "https://github.com/XVR-Art/phpsdk/issues",
+      "source": "https://github.com/XVR-Art/phpsdk"
+  },
+  "require": {
+    "php": ">=7.4.0",
+    "guzzlehttp/guzzle": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "xvrart\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Super Junior",
+      "email": "easelify@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
