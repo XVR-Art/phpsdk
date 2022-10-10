@@ -15,6 +15,7 @@ use xvrart\request\SpaceUpdateRequest;
 
 $req = new SpaceUpdateRequest();
 $req->setData([
+    'hub_id' => 1266348286336303108,
     'hub_sid' => '56hBqY9',
     'created_by_account_id' => 1338662375435272265,
     'scene_id' => 1266457025731100701,

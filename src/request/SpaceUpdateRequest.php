@@ -14,6 +14,8 @@ class SpaceUpdateRequest extends \xvrart\BaseRequest
 {
     public string $api_name = 'space/update';
 
+    public ?int $hub_id = null;
+
     public ?string $hub_sid = null;
 
     public ?int $created_by_account_id = null;
@@ -31,6 +33,7 @@ class SpaceUpdateRequest extends \xvrart\BaseRequest
     public function getData(): array
     {
         $data = [];
+        $this->hub_id !== null && $data['hub_id'] = $this->hub_id;
         $this->hub_sid !== null && $data['hub_sid'] = $this->hub_sid;
         $this->created_by_account_id !== null && $data['created_by_account_id'] = $this->created_by_account_id;
         $this->scene_id !== null && $data['scene_id'] = $this->scene_id;

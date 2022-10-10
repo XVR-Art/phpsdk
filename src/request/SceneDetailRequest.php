@@ -14,12 +14,12 @@ class SceneDetailRequest extends \xvrart\BaseRequest
 {
     public string $api_name = 'scene/detail';
 
-    public ?string $scene_sid = null;
+    public ?int $scene_id = null;
 
     public function getData(): array
     {
         $data = [];
-        $this->scene_sid !== null && $data['scene_sid'] = $this->scene_sid;
+        $this->scene_id !== null && $data['scene_id'] = $this->scene_id;
         return $data;
     }
 }

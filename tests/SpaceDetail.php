@@ -14,7 +14,7 @@ use xvrart\Client;
 use xvrart\request\SpaceDetailRequest;
 
 $req = new SpaceDetailRequest();
-$req->setData(['hub_sid' => '56hBqY9']);
+$req->setData(['hub_id' => 1339677009332142166]);
 
 // 以下代码无需修改
 

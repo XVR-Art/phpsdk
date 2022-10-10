@@ -14,12 +14,12 @@ class SpaceDetailRequest extends \xvrart\BaseRequest
 {
     public string $api_name = 'space/detail';
 
-    public ?string $hub_sid = null;
+    public ?int $hub_id = null;
 
     public function getData(): array
     {
         $data = [];
-        $this->hub_sid !== null && $data['hub_sid'] = $this->hub_sid;
+        $this->hub_id !== null && $data['hub_id'] = $this->hub_id;
         return $data;
     }
 }

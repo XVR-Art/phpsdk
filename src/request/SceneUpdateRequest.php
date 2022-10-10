@@ -14,6 +14,8 @@ class SceneUpdateRequest extends \xvrart\BaseRequest
 {
     public string $api_name = 'scene/update';
 
+    public ?int $scene_id = null;
+
     public ?string $scene_sid = null;
 
     public ?string $name = null;
@@ -25,6 +27,7 @@ class SceneUpdateRequest extends \xvrart\BaseRequest
     public function getData(): array
     {
         $data = [];
+        $this->scene_id !== null && $data['scene_id'] = $this->scene_id;
         $this->scene_sid !== null && $data['scene_sid'] = $this->scene_sid;
         $this->name !== null && $data['name'] = $this->name;
         $this->description !== null && $data['description'] = $this->description;

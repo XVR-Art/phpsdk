@@ -14,7 +14,7 @@ use xvrart\Client;
 use xvrart\request\SceneDetailRequest;
 
 $req = new SceneDetailRequest();
-$req->setData(['scene_sid' => '5fi3HzB']);
+$req->setData(['scene_id' => 1266457025731100701]);
 
 // 以下代码无需修改
 
