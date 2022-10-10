@@ -1,7 +1,7 @@
 {
     "code": 0,
     "msg": "OK",
-    "items": {
+    "item": {
         "hub_id": 1266348286336303108,
         "hub_sid": "56hBqY9",
         "name": "测试空间",
