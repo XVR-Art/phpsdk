@@ -11,19 +11,19 @@
 ## API列表
 
 1. 场景
-   1. 场景列表
-   2. 场景详情
-   3. 更新场景
+   1. [场景列表](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/SceneList.md)
+   2. [场景详情](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/SceneDetail.md)
+   3. [更新场景](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/SceneUpdate.md)
 2. 空间
-   1. 空间列表
-   2. 空间详情
-   3. 创建空间
-   4. 更新空间(转移/启用/停用)
+   1. [空间列表](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/SpaceList.md)
+   2. [空间详情](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/SpaceDetail.md)
+   3. [创建空间](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/SpaceCreate.md)
+   4. [更新空间(转移/启用/停用)](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/SpaceUpdate.md)
 3. 账号
-   1. 账号列表
-   2. 账号详情
-   3. 创建账号
-   4. 更新账号(启用/停用)
+   1. [账号列表](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/AccountList.md)
+   2. [账号详情](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/AccountDetail.md)
+   3. [创建账号](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/AccountCreate.md)
+   4. [更新账号(启用/停用)](https://github.com/XVR-Art/Private-Deployment/blob/master/api-xvr/docs/AccountUpdate.md)
 
 ## 安装
 
