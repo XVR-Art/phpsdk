@@ -30,7 +30,7 @@
 国内用户建议使用[阿里云的Composer镜像](https://developer.aliyun.com/composer)来提升下载体验
 
 ```
-composer require xvrart/phpsdk
+composer require xvr-art/phpsdk
 ```
 
 ## 使用范例
