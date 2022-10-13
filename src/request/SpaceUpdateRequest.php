@@ -30,6 +30,8 @@ class SpaceUpdateRequest extends \xvrart\BaseRequest
 
     public ?string $entry_mode = null;
 
+    public ?int $member_permissions = null;
+
     public function getData(): array
     {
         $data = [];
@@ -41,6 +43,7 @@ class SpaceUpdateRequest extends \xvrart\BaseRequest
         $this->description !== null && $data['description'] = $this->description;
         $this->room_size !== null && $data['room_size'] = $this->room_size;
         $this->entry_mode !== null && $data['entry_mode'] = $this->entry_mode;
+        $this->member_permissions !== null && $data['member_permissions'] = $this->member_permissions;
         return $data;
     }
 }
