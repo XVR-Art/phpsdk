@@ -14,6 +14,7 @@
         "embedded": false,
         "description": "又一个全新的VR空间",
         "room_size": 10,
-        "created_by_account_id": 1338662375435272265
+        "created_by_account_id": 1338662375435272265,
+        "member_permissions": 0
     }
 }
