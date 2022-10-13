@@ -1,0 +1,22 @@
+{
+    "code": 0,
+    "msg": "OK",
+    "items": [
+        {
+            "avatar_listing_id": 1314280722982240302,
+            "avatar_listing_sid": "YdxH5g3",
+            "name": "Hackweek Variant 7",
+            "slug": "hackweek-variant-7",
+            "state": "active",
+            "description": null
+        },
+        {
+            "avatar_listing_id": 1314280692447707177,
+            "avatar_listing_sid": "JazR5YS",
+            "name": "Hackweek Variant 6",
+            "slug": "hackweek-variant-6",
+            "state": "active",
+            "description": null
+        }
+    ]
+}
