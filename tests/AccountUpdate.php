@@ -13,8 +13,9 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use xvrart\Client;
 use xvrart\request\AccountUpdateRequest;
 
+// 不修改邮箱请勿传入
 $req = new AccountUpdateRequest();
-$req->setData(['account_id' => '1266348169189392386', 'state' => 'enabled']);
+$req->setData(['account_id' => '1266348169189392386', 'email' => 'newmail@domain.com', 'state' => 'enabled']);
 
 // 以下代码无需修改
 

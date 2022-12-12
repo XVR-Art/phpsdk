@@ -16,12 +16,15 @@ class AccountUpdateRequest extends \xvrart\BaseRequest
 
     public ?string $account_id = null;
     
+    public ?string $email = null;
+
     public ?string $state = null;
 
     public function getData(): array
     {
         $data = [];
         $this->account_id !== null && $data['account_id'] = $this->account_id;
+        $this->email !== null && $data['email'] = $this->email;
         $this->state !== null && $data['state'] = $this->state;
         return $data;
     }
